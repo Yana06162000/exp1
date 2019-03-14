@@ -1,0 +1,12 @@
+//Experiment 1: Problem 3
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main ()
+{
+
+	_getch();
+	return 0;
+}
