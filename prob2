@@ -6,17 +6,18 @@ using namespace std;
 
 int main ()
 {
+
 	float g; //mass in grams
 	float d; //density in grams/cubic centimeter
 	float volume;
 
-	
 		cout << "Please input the mass in grams: ";
 		cin >> g;
 		cout << "Please input the density in grams per cubic centimeter: ";
 		cin >> d;
 		volume = g / d;
 		cout << "Volume:" << volume << endl;
+		
 	_getch();
 	return 0;
 
