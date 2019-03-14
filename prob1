@@ -1,0 +1,25 @@
+// Experiment 1: Problem 1
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main ()
+{
+	string ticketPrice, tix250, tix100, tix50, tix25;
+	ticketPrice = "Ticket Price - Number of Tickets Sold";
+		tix250 = "250.00 * 5750";
+		tix100 = "100.00 - 28000";
+		tix50 = "50.00 - 35750";
+		tix25 = "25.00 - 18750";
+
+cout << "Ticket Type: Ticket Price * Number of Tickets Sold = Sale Amount" << endl;
+cout << "Box: 250 * 5750 = " << 250 * 5750 << endl;
+cout << "Sideline: 100 * 28000 = " << 100 * 28000 << endl;
+cout << "Premium: 50 * 35750 = " << 50 * 35750 << endl;
+cout << "General Admission: 25 * 18750 = " << 25 * 18750 << endl;
+cout << "Total Amount of Sales = " << 1437500 + 2800000 + 1787500 + 468750 << endl;
+
+		_getch();
+	return 0;
+}
